@@ -1,8 +1,8 @@
 cc_binary {
-    name: "android.hardware.lights-service.xiaomi_sm6150",
+    name: "android.hardware.lights-service.xiaomi_mojito",
     relative_install_path: "hw",
-    init_rc: ["android.hardware.lights-service.xiaomi_sm6150.rc"],
-    vintf_fragments: ["android.hardware.lights.xiaomi_sm6150.xml"],
+    init_rc: ["android.hardware.lights-service.xiaomi_mojito.rc"],
+    vintf_fragments: ["android.hardware.lights.xiaomi_mojito.xml"],
     vendor: true,
     shared_libs: [
         "libbase",

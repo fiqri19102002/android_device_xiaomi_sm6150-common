@@ -13,9 +13,11 @@ persist.vendor.audio.fluence.voicecomm=true
 persist.vendor.audio.fluence.voicerec=false
 persist.vendor.audio.ras.enabled=false
 persist.vendor.audio.spv3.enable=true
+persist.vendor.audio.voicecall.speaker.stereo=true
 ro.af.client_heap_size_kbyte=7168
 ro.vendor.audio.soundfx.usb=true
 ro.vendor.audio.afe.record=true
+ro.vendor.audio.sdk.fluencetype=none
 vendor.audio.adm.buffering.ms=6
 vendor.voice.path.for.pcm.voip=false
 vendor.audio.feature.a2dp_offload.enable=true
@@ -159,6 +161,11 @@ vendor.display.enable_default_color_mode=1
 vendor.display.enable_null_display=0
 vendor.display.enable_optimize_refresh=1
 vendor.gralloc.disable_ubwc=0
+
+# HVDCP
+persist.vendor.cp.fcc_main_ua=400000
+persist.vendor.cp.taper_term_mv=6500
+persist.vendor.cp.vbus_offset_mv=1040
 
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
